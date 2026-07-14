@@ -1,0 +1,17 @@
+run = "python str1pe_ckr_bot_premium_emojis.py"
+
+entrypoint = "str1pe_ckr_bot_premium_emojis.py"
+
+modules = ["python-3.10"]
+
+[nix]
+channel = "stable-22_11"
+
+[unitTest]
+language = "python3"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["sh", "-c", "python str1pe_ckr_bot_premium_emojis.py"]
