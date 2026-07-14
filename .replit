@@ -1,4 +1,0 @@
-run = "python3 str1pe_ckr_bot_premium_emojis.py"
-entrypoint = "str1pe_ckr_bot_premium_emojis.py"
-language = "python3"
-
